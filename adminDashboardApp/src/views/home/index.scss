@@ -1,0 +1,18 @@
+.HomeView {
+  .Container {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+    &__form {
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+      }
+    }
+  }
+}
